@@ -1,0 +1,23 @@
+.myNav {
+  z-index: -1;
+}
+
+.float-right {
+  float: right;
+}
+
+.flex-display {
+  display: flex;
+}
+
+.top-pos {
+  top: 0;
+}
+
+.right-pos {
+  right: 0;
+}
+
+.pos-absolute {
+  position: absolute;
+}
