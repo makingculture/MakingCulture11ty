@@ -1,9 +1,12 @@
 ---
-title: My first page
+title: MC
 layout: base.njk
 templateEngineOverride: njk,md
 ---
 
-## Blog Posts
+{% include "header.njk" %}
+{% include "welcome-block.njk" %}
 
-{% include "postlist.njk" %}
+<!-- ## Content
+
+{% include "postlist.njk" %} -->
