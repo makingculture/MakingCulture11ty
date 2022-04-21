@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{{title}}</title>
+
+    <!-- install main styles -->
+
+    <link rel="stylesheet" href="/css/styles.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/orv2hxy.css" />
+
+    <!-- Icon Scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+  </head>
+
+  <body>
+    <main>
+      {{ content | safe }}
+    </main>
+  </body>
+
+</html>
